@@ -1,0 +1,12 @@
+.serviceInfo-continar {
+  width: 300px;
+  margin: 20px;
+  transform-origin: top;
+  transition: all 1s;
+}
+.serviceInfo-continar:hover {
+  transform: scale(0.9);
+}
+.service-img {
+  width: 100px;
+}
