@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { UserContext } from '../../../App';
 
 const Order = ({ orderInfo }) => {
-    console.log('orderinfo', orderInfo);
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <div>
