@@ -35,27 +35,27 @@ function App() {
           <Route exact path='/'>
             <Home handleBook={handleBook}></Home>
           </Route>
-          <Route path='/review'>
+          <PrivateRoute path='/review'>
             <Review></Review>
-          </Route>
-          <Route path='/addService'>
+          </PrivateRoute>
+          <PrivateRoute path='/addService'>
             <AddService></AddService>
-          </Route>
-          <Route path='/addAdmin'>
+          </PrivateRoute>
+          <PrivateRoute path='/addAdmin'>
             <AddAdmin></AddAdmin>
-          </Route>
-          <Route path='/deleteService'>
+          </PrivateRoute>
+          <PrivateRoute path='/deleteService'>
             <DeleteService></DeleteService>
-          </Route>
-          <Route path='/allOrder'>
+          </PrivateRoute>
+          <PrivateRoute path='/allOrder'>
             <AllOrder></AllOrder>
-          </Route>
-          <Route path='/booking'>
+          </PrivateRoute>
+          <PrivateRoute path='/booking'>
             <Booking bookInfo={bookInfo} ></Booking>
-          </Route>
-          <Route path='/dashboard'>
+          </PrivateRoute>
+          <PrivateRoute path='/dashboard'>
             <Dashboard></Dashboard>
-          </Route>
+          </PrivateRoute>
           <Route path='/login'>
             <Login ></Login>
           </Route>
